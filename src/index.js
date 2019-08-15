@@ -17,6 +17,11 @@ const store = createStore(
 ReactDOM.render(
   <Provider store={store}>
     <App />
+    <br />
+    <br />
+    <div class="divider"></div>
+    <br />
+    <br />
   </Provider>,
   document.getElementById("root")
 );
